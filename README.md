@@ -94,4 +94,3 @@ On a fresh launch the learner types `enable`, sees the permission message, and e
 Keep networking behavior in `src/core`, original content in `src/data`, and presentation in `src/ui` plus `src/app.js`. Add behavior-based regression tests for simulator changes. Do not use leaked/recalled exam questions, insert private credentials, replace offline functionality with a paid AI API, or mark planned features complete merely because a screen exists. The entire version-1 checklist must pass before group testing.
 
 Copyright remains with the respective authors. No open-source license has been selected yet.
-

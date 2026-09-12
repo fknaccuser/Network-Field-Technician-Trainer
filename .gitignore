@@ -1,0 +1,7 @@
+node_modules/
+dist/
+.owner/
+.env*
+!\.env.example
+test-results/
+*.zip

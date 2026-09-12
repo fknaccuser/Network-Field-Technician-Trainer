@@ -1,0 +1,17 @@
+{
+  "name": "the-field",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Offline networking study and stateful field simulations",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "build": "node scripts/build.mjs",
+    "preview": "node scripts/serve.mjs dist",
+    "test": "node --test tests/*.test.mjs",
+    "check": "node scripts/check.mjs",
+    "owner:setup": "node scripts/owner.mjs setup",
+    "owner:authorize": "node scripts/owner.mjs authorize"
+  }
+}
